@@ -1,7 +1,7 @@
 # MIDI Visualizer
 
 This is a fork of the original for the following reasons:
-- [ ] translate to enlish
+- [x] translate to enlish
 - [ ] open files from the command line
 
 
