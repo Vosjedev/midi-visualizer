@@ -1,8 +1,8 @@
 # MIDI Visualizer
 
 This is a fork of the original for the following reasons:
-- translate to enlish
-- open files from the command line
+- [ ] translate to enlish
+- [ ] open files from the command line
 
 
 Gtk application to visualize MIDI file as piano tutorial videos.
