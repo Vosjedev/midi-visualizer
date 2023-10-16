@@ -57,10 +57,10 @@ class App:
 
         if state == Gst.State.PLAYING:
             button.get_image().set_from_icon_name(Gtk.STOCK_MEDIA_PAUSE, Gtk.IconSize.BUTTON)
-            button.set_label('暫停')
+            button.set_label('Pause')
         else:
             button.get_image().set_from_icon_name(Gtk.STOCK_MEDIA_PLAY, Gtk.IconSize.BUTTON)
-            button.set_label('播放')
+            button.set_label('Play')
             return True
 
         slider = self.builder.get_object('time_slider')
@@ -114,7 +114,7 @@ class App:
             self.duration = Gst.CLOCK_TIME_NONE
             source = open_dialog.get_filename()
             progress_bar.set_fraction(0)
-            hint_label.set_text('正在解析 MIDI 檔案為影片...')
+            hint_label.set_text('Parsing MIDI file into video...')
 
             self.set_window_sensitive(False)
 
